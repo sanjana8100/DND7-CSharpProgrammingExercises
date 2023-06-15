@@ -1,0 +1,15 @@
+C:\Users\INS 5570\source\repos\DND7-CSharpProgrammingExercises\DND7-CSharpProgrammingExercises\bin\Debug\net6.0\DND7-CSharpProgrammingExercises.exe
+C:\Users\INS 5570\source\repos\DND7-CSharpProgrammingExercises\DND7-CSharpProgrammingExercises\bin\Debug\net6.0\DND7-CSharpProgrammingExercises.deps.json
+C:\Users\INS 5570\source\repos\DND7-CSharpProgrammingExercises\DND7-CSharpProgrammingExercises\bin\Debug\net6.0\DND7-CSharpProgrammingExercises.runtimeconfig.json
+C:\Users\INS 5570\source\repos\DND7-CSharpProgrammingExercises\DND7-CSharpProgrammingExercises\bin\Debug\net6.0\DND7-CSharpProgrammingExercises.dll
+C:\Users\INS 5570\source\repos\DND7-CSharpProgrammingExercises\DND7-CSharpProgrammingExercises\bin\Debug\net6.0\DND7-CSharpProgrammingExercises.pdb
+C:\Users\INS 5570\source\repos\DND7-CSharpProgrammingExercises\DND7-CSharpProgrammingExercises\obj\Debug\net6.0\DND7-CSharpProgrammingExercises.csproj.AssemblyReference.cache
+C:\Users\INS 5570\source\repos\DND7-CSharpProgrammingExercises\DND7-CSharpProgrammingExercises\obj\Debug\net6.0\DND7-CSharpProgrammingExercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\INS 5570\source\repos\DND7-CSharpProgrammingExercises\DND7-CSharpProgrammingExercises\obj\Debug\net6.0\DND7-CSharpProgrammingExercises.AssemblyInfoInputs.cache
+C:\Users\INS 5570\source\repos\DND7-CSharpProgrammingExercises\DND7-CSharpProgrammingExercises\obj\Debug\net6.0\DND7-CSharpProgrammingExercises.AssemblyInfo.cs
+C:\Users\INS 5570\source\repos\DND7-CSharpProgrammingExercises\DND7-CSharpProgrammingExercises\obj\Debug\net6.0\DND7-CSharpProgrammingExercises.csproj.CoreCompileInputs.cache
+C:\Users\INS 5570\source\repos\DND7-CSharpProgrammingExercises\DND7-CSharpProgrammingExercises\obj\Debug\net6.0\DND7-CSharpProgrammingExercises.dll
+C:\Users\INS 5570\source\repos\DND7-CSharpProgrammingExercises\DND7-CSharpProgrammingExercises\obj\Debug\net6.0\refint\DND7-CSharpProgrammingExercises.dll
+C:\Users\INS 5570\source\repos\DND7-CSharpProgrammingExercises\DND7-CSharpProgrammingExercises\obj\Debug\net6.0\DND7-CSharpProgrammingExercises.pdb
+C:\Users\INS 5570\source\repos\DND7-CSharpProgrammingExercises\DND7-CSharpProgrammingExercises\obj\Debug\net6.0\DND7-CSharpProgrammingExercises.genruntimeconfig.cache
+C:\Users\INS 5570\source\repos\DND7-CSharpProgrammingExercises\DND7-CSharpProgrammingExercises\obj\Debug\net6.0\ref\DND7-CSharpProgrammingExercises.dll

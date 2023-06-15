@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("P1- Given two integers, write a method that swaps them using temporary variable");
+            Console.WriteLine("----------------------------------------------------------------------------------");
+            Basic.SwapTwoNumbers(10, 20);
         }
     }
 }
