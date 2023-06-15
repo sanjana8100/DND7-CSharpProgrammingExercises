@@ -42,10 +42,14 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Loops.ExtractString("##1234##"));
 
-            Console.WriteLine("P9- Given a string of two letters, where first one occurs before the second in the alphabet, ");
-            Console.WriteLine("write a method that returns full sequence of letters starting from first and ending at the second one");
+            //Console.WriteLine("P9- Given a string of two letters, where first one occurs before the second in the alphabet, ");
+            //Console.WriteLine("write a method that returns full sequence of letters starting from first and ending at the second one");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Loops.FullSequenceOfLetters("as"));
+
+            Console.WriteLine("P10- Given an array of integers, write method that returns value of the longest strictly increasing sequence of numbers");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Loops.FullSequenceOfLetters("as"));
+            Console.WriteLine(Loops.LongestStrictlyIncreasingSequence(new int[] { 2, 3, 4, 5, 6, 7, 8 }));
         }
     }
 }
