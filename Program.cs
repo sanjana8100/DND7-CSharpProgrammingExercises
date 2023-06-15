@@ -26,9 +26,13 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Loops.PrimeNumbersRange(30);
 
-            Console.WriteLine("P5- Write a method that draws hourglass shape");
+            //Console.WriteLine("P5- Write a method that draws hourglass shape");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Loops.DrawHourglass();
+
+            Console.WriteLine("P6- Write a method that draws parallelogram shape");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Loops.DrawHourglass();
+            Loops.DrawParallelogram();
         }
     }
 }
