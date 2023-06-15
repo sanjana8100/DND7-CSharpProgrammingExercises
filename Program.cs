@@ -34,9 +34,13 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Loops.DrawParallelogram();
 
-            Console.WriteLine("P7- Write a method that draws Christmas tree shape");
+            //Console.WriteLine("P7- Write a method that draws Christmas tree shape");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Loops.DrawChristmasTree();
+
+            Console.WriteLine("P8- Given a string, write a method that returns substring from between two double hash signs (#)");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Loops.DrawChristmasTree();
+            Console.WriteLine(Loops.ExtractString("##1234##"));
         }
     }
 }
