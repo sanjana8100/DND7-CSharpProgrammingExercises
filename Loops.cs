@@ -14,9 +14,9 @@ namespace DND7_CSharpProgrammingExercises
             for (int number = 2; number <= range; number++)
             {
                 int count = 0;
-                for (int index = 2; index <= number/2; index++)
+                for (int index = 2; index <= number / 2; index++)
                 {
-                    if(number % index == 0)
+                    if (number % index == 0)
                     {
                         count++;
                         break;
@@ -28,6 +28,26 @@ namespace DND7_CSharpProgrammingExercises
                 }
             }
             Console.WriteLine();
+        }
+
+        public static void DrawHourglass()
+        {
+            for (var i = 0; i <= 10; i++)
+            {
+                for (var j = 0; j < (i <= 5 ? i : 10 - i); j++)
+                {
+                    Console.Write(" ");
+                }
+                for (var k = i <= 5 ? i : 10 - i; k <= (i <= 5 ? 10 - i : i); k++)
+                {
+                    Console.Write("*");
+                }
+                for (var m = 10 - i; m < 10; m++)
+                {
+                    Console.Write(" ");
+                }
+                Console.WriteLine();
+            }
         }
     }
 }

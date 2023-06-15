@@ -22,9 +22,13 @@
 
             // Loops:
 
-            Console.WriteLine("P4- Given an integer n (n>2), write a method that returns prime numbers from range [2, n]");
+            //Console.WriteLine("P4- Given an integer n (n>2), write a method that returns prime numbers from range [2, n]");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Loops.PrimeNumbersRange(30);
+
+            Console.WriteLine("P5- Write a method that draws hourglass shape");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Loops.PrimeNumbersRange(30);
+            Loops.DrawHourglass();
         }
     }
 }
