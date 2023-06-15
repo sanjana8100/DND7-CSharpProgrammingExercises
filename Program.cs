@@ -9,7 +9,7 @@
             //Console.WriteLine("P1- Given two integers, write a method that swaps them using temporary variable");
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Basic.SwapTwoNumbers(10, 20);
-            
+
             // Conditional Statements:
 
             //Console.WriteLine("P2- Given a year as integer, write a method that checks if year is leap year");
@@ -38,9 +38,14 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Loops.DrawChristmasTree();
 
-            Console.WriteLine("P8- Given a string, write a method that returns substring from between two double hash signs (#)");
+            //Console.WriteLine("P8- Given a string, write a method that returns substring from between two double hash signs (#)");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Loops.ExtractString("##1234##"));
+
+            Console.WriteLine("P9- Given a string of two letters, where first one occurs before the second in the alphabet, ");
+            Console.WriteLine("write a method that returns full sequence of letters starting from first and ending at the second one");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Loops.ExtractString("##1234##"));
+            Console.WriteLine(Loops.FullSequenceOfLetters("as"));
         }
     }
 }
