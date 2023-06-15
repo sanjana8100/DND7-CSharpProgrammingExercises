@@ -30,9 +30,13 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Loops.DrawHourglass();
 
-            Console.WriteLine("P6- Write a method that draws parallelogram shape");
+            //Console.WriteLine("P6- Write a method that draws parallelogram shape");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Loops.DrawParallelogram();
+
+            Console.WriteLine("P7- Write a method that draws Christmas tree shape");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Loops.DrawParallelogram();
+            Loops.DrawChristmasTree();
         }
     }
 }
