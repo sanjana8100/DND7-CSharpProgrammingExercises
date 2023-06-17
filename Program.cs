@@ -63,10 +63,15 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Loops.SumAndAverage(11, 40));
 
-            Console.WriteLine("P14- Given an array of objects, write a method that returns sum of objects of double type");
-            Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Loops.SumDoubleOnly(new object[] { 8.9, "dog", 6, 'c', null, 15.99, 745, true }));
+            //Console.WriteLine("P14- Given an array of objects, write a method that returns sum of objects of double type");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Loops.SumDoubleOnly(new object[] { 8.9, "dog", 6, 'c', null, 15.99, 745, true }));
 
+            Console.WriteLine("P15- Write a method that draws triangle shape");
+            Console.WriteLine("----------------------------------------------------------------------------------");
+            Loops.DrawTriangle();
+
+            
         }
     }
 }
