@@ -51,9 +51,13 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Loops.LongestStrictlyIncreasingSequence(new int[] { 2, 3, 4, 5, 6, 7, 8 }));
 
-            Console.WriteLine("P11- Write a method that takes non-empty string of bits as an argument and returns number as integer");
+            //Console.WriteLine("P11- Write a method that takes non-empty string of bits as an argument and returns number as integer");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Loops.BitsToNumber("100100"));
+
+            Console.WriteLine("P12- Given a non-negative number, write a method that returns sum of its digits");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Loops.BitsToNumber("100100"));
+            Console.WriteLine(Loops.DigitsSum(452));
         }
     }
 }

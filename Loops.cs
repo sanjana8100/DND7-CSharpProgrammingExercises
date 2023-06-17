@@ -167,5 +167,24 @@ namespace DND7_CSharpProgrammingExercises
 
             return number;
         }
+
+        // P12:
+        public static int DigitsSum(int number)
+        {
+            int sum = 0;
+            int i = 10;
+            int j = 1;
+
+            while (number / j >= 1)
+            {
+                sum += (int)(number % i / j);
+
+                i *= 10;
+                j *= 10;
+            }
+
+            return sum;
+        }
+
     }
 }
