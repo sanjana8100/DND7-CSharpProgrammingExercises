@@ -67,11 +67,13 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Loops.SumDoubleOnly(new object[] { 8.9, "dog", 6, 'c', null, 15.99, 745, true }));
 
-            Console.WriteLine("P15- Write a method that draws triangle shape");
-            Console.WriteLine("----------------------------------------------------------------------------------");
-            Loops.DrawTriangle();
+            //Console.WriteLine("P15- Write a method that draws triangle shape");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Loops.DrawTriangle();
 
-            
+            Console.WriteLine("P16- Given two integers, write a method that returns first number raised to the power of second one");
+            Console.WriteLine("----------------------------------------------------------------------------------");
+            Console.WriteLine(Loops.ToThePowerOf(10, 0));
         }
     }
 }

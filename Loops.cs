@@ -235,6 +235,21 @@ namespace DND7_CSharpProgrammingExercises
             }
         }
 
-        
+        // P16:
+        public static double ToThePowerOf(int b, int exp)
+        {
+            double result = 1;
+            if (exp == 0)
+            {
+                return 1;
+            }
+
+            for (int i = 1; exp > 0 ? i <= exp : i <= exp * (-1); i++)
+            {
+                result *= b;
+            }
+
+            return exp > 0 ? result : 1 / result;
+        }
     }
 }
