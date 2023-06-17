@@ -186,5 +186,22 @@ namespace DND7_CSharpProgrammingExercises
             return sum;
         }
 
+        // P13:
+        public static string SumAndAverage(int lowest, int highest)
+        {
+            int sum = 0;
+            int range = 0;
+            double average = 0.0;
+            for (int i = lowest; i <= highest; i++)
+            {
+                sum += i;
+                range++;
+            }
+
+            average = sum / (double)range;
+
+            return string.Format($"Sum: {sum}, Average: {average}");
+        }
+
     }
 }

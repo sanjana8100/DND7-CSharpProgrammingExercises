@@ -55,9 +55,13 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Loops.BitsToNumber("100100"));
 
-            Console.WriteLine("P12- Given a non-negative number, write a method that returns sum of its digits");
+            //Console.WriteLine("P12- Given a non-negative number, write a method that returns sum of its digits");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Loops.DigitsSum(452));
+
+            Console.WriteLine("P13- Given two integers n and m (n <= m), write a method that returns sum of all integers and average from range [n, m]");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Loops.DigitsSum(452));
+            Console.WriteLine(Loops.SumAndAverage(11, 40));
         }
     }
 }
