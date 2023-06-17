@@ -75,10 +75,14 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Loops.ToThePowerOf(10, 0));
 
-            Console.WriteLine("P17- Given a string, write a method that checks if there are exactly the same letters on the left side and right side of the string.");
-            Console.WriteLine("Assume string length is even and letters don't repeat on each side");
+            //Console.WriteLine("P17- Given a string, write a method that checks if there are exactly the same letters on the left side and right side of the string.");
+            //Console.WriteLine("Assume string length is even and letters don't repeat on each side");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Loops.LettersBalance("kfdfdk"));
+
+            Console.WriteLine("P18- Given a string in which two words are separated by a char, write a method that replaces these two words");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Loops.LettersBalance("kfdfdk"));
+            Console.WriteLine(Loops.ReplaceWords("Good_Morning", '_'));
         }
     }
 }
