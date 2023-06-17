@@ -71,9 +71,14 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Loops.DrawTriangle();
 
-            Console.WriteLine("P16- Given two integers, write a method that returns first number raised to the power of second one");
+            //Console.WriteLine("P16- Given two integers, write a method that returns first number raised to the power of second one");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Loops.ToThePowerOf(10, 0));
+
+            Console.WriteLine("P17- Given a string, write a method that checks if there are exactly the same letters on the left side and right side of the string.");
+            Console.WriteLine("Assume string length is even and letters don't repeat on each side");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Loops.ToThePowerOf(10, 0));
+            Console.WriteLine(Loops.LettersBalance("kfdfdk"));
         }
     }
 }

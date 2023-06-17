@@ -251,5 +251,29 @@ namespace DND7_CSharpProgrammingExercises
 
             return exp > 0 ? result : 1 / result;
         }
+
+        // P17:
+        public static bool LettersBalance(string word)
+        {
+            bool isBalanced;
+            for (int i = 0; i < word.Length / 2; i++)
+            {
+                isBalanced = false;
+                for (int j = word.Length - 1; j >= word.Length / 2; j--)
+                {
+                    if (word[i] == word[j])
+                    {
+                        isBalanced = true;
+                    }
+                }
+
+                if (!isBalanced)
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
     }
 }
