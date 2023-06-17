@@ -8,6 +8,7 @@ namespace DND7_CSharpProgrammingExercises
 {
     internal class Loops
     {
+        // P4: 
         public static void PrimeNumbersRange(int range)
         {
             Console.WriteLine($"The Prime Numbers Between the range 2 to {range} are:");
@@ -30,6 +31,7 @@ namespace DND7_CSharpProgrammingExercises
             Console.WriteLine();
         }
 
+        // P5: 
         public static void DrawHourglass()
         {
             for (var i = 0; i <= 10; i++)
@@ -50,6 +52,7 @@ namespace DND7_CSharpProgrammingExercises
             }
         }
 
+        // P6: 
         public static void DrawParallelogram()
         {
             for (var j = 0; j < 5; j++)
@@ -66,6 +69,7 @@ namespace DND7_CSharpProgrammingExercises
             }
         }
 
+        // P7: 
         public static void DrawChristmasTree()
         {
             for (var i = 0; i < 3; i++)
@@ -89,6 +93,7 @@ namespace DND7_CSharpProgrammingExercises
             }
         }
 
+        // P8: 
         public static string ExtractString(string word)
         {
             string extractedWord = string.Empty;
@@ -114,6 +119,7 @@ namespace DND7_CSharpProgrammingExercises
             return string.Empty;
         }
 
+        // P9: 
         public static string FullSequenceOfLetters(string word)
         {
             string fullSequence = string.Empty;
@@ -124,6 +130,7 @@ namespace DND7_CSharpProgrammingExercises
             return fullSequence;
         }
 
+        // P10: 
         public static int LongestStrictlyIncreasingSequence(int[] array)
         {
             int tempLongest = 0;
@@ -146,6 +153,19 @@ namespace DND7_CSharpProgrammingExercises
                 }
             }
             return longest;
+        }
+
+        // P11: 
+        public static int BitsToNumber(string bits)
+        {
+            var number = 0;
+
+            for (var i = 0; i < bits.Length; i++)
+            {
+                number += (int)(char.GetNumericValue(bits[i]) * Math.Pow(2, bits.Length - i - 1));
+            }
+
+            return number;
         }
     }
 }

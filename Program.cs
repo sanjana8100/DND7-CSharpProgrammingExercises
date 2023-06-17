@@ -47,9 +47,13 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Loops.FullSequenceOfLetters("as"));
 
-            Console.WriteLine("P10- Given an array of integers, write method that returns value of the longest strictly increasing sequence of numbers");
+            //Console.WriteLine("P10- Given an array of integers, write method that returns value of the longest strictly increasing sequence of numbers");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Loops.LongestStrictlyIncreasingSequence(new int[] { 2, 3, 4, 5, 6, 7, 8 }));
+
+            Console.WriteLine("P11- Write a method that takes non-empty string of bits as an argument and returns number as integer");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Loops.LongestStrictlyIncreasingSequence(new int[] { 2, 3, 4, 5, 6, 7, 8 }));
+            Console.WriteLine(Loops.BitsToNumber("100100"));
         }
     }
 }
