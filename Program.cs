@@ -80,9 +80,13 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Loops.LettersBalance("kfdfdk"));
 
-            Console.WriteLine("P18- Given a string in which two words are separated by a char, write a method that replaces these two words");
+            //Console.WriteLine("P18- Given a string in which two words are separated by a char, write a method that replaces these two words");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Loops.ReplaceWords("Good_Morning", '_'));
+
+            Console.WriteLine("P19- Given a non-negative number, write a method that returns its digital root");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Loops.ReplaceWords("Good_Morning", '_'));
+            Console.WriteLine(Loops.DigitalRoot(5));
         }
     }
 }
