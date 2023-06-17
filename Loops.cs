@@ -203,5 +203,19 @@ namespace DND7_CSharpProgrammingExercises
             return string.Format($"Sum: {sum}, Average: {average}");
         }
 
+        // P14:
+        public static double SumDoubleOnly(object[] obj)
+        {
+            double sum = 0.0;
+            for (int i = 0; i < obj.Length; i++)
+            {
+                if (obj[i] is double)
+                {
+                    sum += (double)obj[i];
+                }
+            }
+
+            return sum;
+        }
     }
 }

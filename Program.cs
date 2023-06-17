@@ -59,9 +59,14 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Loops.DigitsSum(452));
 
-            Console.WriteLine("P13- Given two integers n and m (n <= m), write a method that returns sum of all integers and average from range [n, m]");
+            //Console.WriteLine("P13- Given two integers n and m (n <= m), write a method that returns sum of all integers and average from range [n, m]");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Loops.SumAndAverage(11, 40));
+
+            Console.WriteLine("P14- Given an array of objects, write a method that returns sum of objects of double type");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Loops.SumAndAverage(11, 40));
+            Console.WriteLine(Loops.SumDoubleOnly(new object[] { 8.9, "dog", 6, 'c', null, 15.99, 745, true }));
+
         }
     }
 }
