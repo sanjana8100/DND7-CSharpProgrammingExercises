@@ -94,9 +94,13 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Strings.MakeUppercase("Have a Happy Morning"));
 
-            Console.WriteLine("P21- Given two strings, write a method that returns one string made of two strings");
+            //Console.WriteLine("P21- Given two strings, write a method that returns one string made of two strings");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Strings.MixTwoStrings("APPLE", "MANGO"));
+
+            Console.WriteLine("P22- Given a string, write a method that counts its number of words");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Strings.MixTwoStrings("APPLE", "MANGO"));
+            Console.WriteLine(Strings.NumberOfWords("All The Very Best"));
         }
     }
 }
