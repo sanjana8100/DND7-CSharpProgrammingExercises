@@ -128,9 +128,15 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Recursion.IsPalindromeRecursion("dad"));
 
-            Console.WriteLine("P29- Given an array of integers and array's length, write a method that returns its minimum element");
+            //Console.WriteLine("P29- Given an array of integers and array's length, write a method that returns its minimum element");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Recursion.MinimumElement(new int[] { 7, 2, 9, 4, 5 }, 5));
+
+            // Library Functions:
+
+            Console.WriteLine("P30- Given a string, write a method that checks if each word in the string starts with lower case and if so, removes this letter from the string");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Recursion.MinimumElement(new int[] { 7, 2, 9, 4, 5 }, 5));
+            Console.WriteLine(LibraryFunctions.IfStartsWithLowerCase("tthis iis aa ffake ssentence"));
         }
     }
 }
