@@ -90,9 +90,13 @@
 
             // Strings:
 
-            Console.WriteLine("P20- Given a string, write a method that returns new string in which every odd letter of the word is uppercase");
+            //Console.WriteLine("P20- Given a string, write a method that returns new string in which every odd letter of the word is uppercase");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Strings.MakeUppercase("Have a Happy Morning"));
+
+            Console.WriteLine("P21- Given two strings, write a method that returns one string made of two strings");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Strings.MakeUppercase("Have a Happy Morning"));
+            Console.WriteLine(Strings.MixTwoStrings("APPLE", "MANGO"));
         }
     }
 }
