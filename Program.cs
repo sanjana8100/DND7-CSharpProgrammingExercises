@@ -114,9 +114,15 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Strings.SortCharactersDescending("Acknowledge"));
 
-            Console.WriteLine("P26- Given a non-empty string, write a method that returns it in compressed format");
+            //Console.WriteLine("P26- Given a non-empty string, write a method that returns it in compressed format");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Strings.CompressString("Mississippi"));
+
+            // Recursion:
+
+            Console.WriteLine("P27- Given a string, write a method that prints it in reverse order");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Strings.CompressString("Mississippi"));
+            Console.WriteLine(Recursion.StringInReverseOrderRecursion("Mainstream"));
         }
     }
 }
