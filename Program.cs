@@ -120,9 +120,13 @@
 
             // Recursion:
 
-            Console.WriteLine("P27- Given a string, write a method that prints it in reverse order");
+            //Console.WriteLine("P27- Given a string, write a method that prints it in reverse order");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Recursion.StringInReverseOrderRecursion("Mainstream"));
+
+            Console.WriteLine("P28- Given a string, write a method that checks if it is a palindrome");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Recursion.StringInReverseOrderRecursion("Mainstream"));
+            Console.WriteLine(Recursion.IsPalindromeRecursion("dad"));
         }
     }
 }

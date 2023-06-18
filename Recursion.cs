@@ -14,5 +14,24 @@ namespace DND7_CSharpProgrammingExercises
             return str.Length > 0 ? str[str.Length - 1] + StringInReverseOrderRecursion(str.Substring(0, str.Length - 1)) : str;
         }
 
+        // P28:
+        public static bool IsPalindromeRecursion(string str)
+        {
+            if (str.Length == 1 || (str.Length == 2 && str[0] == str[1]))
+            {
+                return true;
+            }
+            else if (str.Length > 1)
+            {
+                if (str[0] != str[str.Length - 1])
+                {
+                    return false;
+                }
+
+                return IsPalindromeRecursion(str.Substring(1, str.Length - 2));
+            }
+
+            return false;
+        }
     }
 }
