@@ -132,5 +132,31 @@ namespace DND7_CSharpProgrammingExercises
 
             return charArray;
         }
+
+        // P26:
+        public static string CompressString(string str)
+        {
+            var count = 0;
+            var last = str[0];
+            var newStr = string.Empty;
+
+            foreach (var s in str)
+            {
+                if (s == last)
+                {
+                    count++;
+                }
+                else
+                {
+                    newStr += last.ToString() + count;
+                    last = s;
+                    count = 1;
+                }
+            }
+
+            newStr += last.ToString() + count;
+
+            return newStr;
+        }
     }
 }

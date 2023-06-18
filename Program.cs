@@ -110,9 +110,13 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Strings.HowManyOccurrences("She sells sea shells on the sea shore", "sea"));
 
-            Console.WriteLine("P25- Given a string, write a method that returns array of chars (ASCII characters) sorted in descending order");
+            //Console.WriteLine("P25- Given a string, write a method that returns array of chars (ASCII characters) sorted in descending order");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Strings.SortCharactersDescending("Acknowledge"));
+
+            Console.WriteLine("P26- Given a non-empty string, write a method that returns it in compressed format");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Strings.SortCharactersDescending("Acknowledge"));
+            Console.WriteLine(Strings.CompressString("Mississippi"));
         }
     }
 }
