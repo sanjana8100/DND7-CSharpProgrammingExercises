@@ -91,5 +91,24 @@ namespace DND7_CSharpProgrammingExercises
 
             return string.Join(" ", strArray);
         }
+
+        // P24:
+        public static int HowManyOccurrences(string str, string subStr)
+        {
+            int found;
+            int total = 0;
+            for (int i = 0; i < str.Length; i++)
+            {
+                found = str.IndexOf(subStr, i);
+
+                if (found > -1)
+                {
+                    total++;
+                    i = found;
+                }
+            }
+
+            return total;
+        }
     }
 }

@@ -102,9 +102,13 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Strings.NumberOfWords("All The Very Best"));
 
-            Console.WriteLine("P23- Given a string, write a method that returns new string with reverted words order");
+            //Console.WriteLine("P23- Given a string, write a method that returns new string with reverted words order");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Strings.RevertWordsOrder("Good Morning."));
+
+            Console.WriteLine("P24- Given a string and substring, write a method that returns number of occurrences of substring in the string");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Strings.RevertWordsOrder("Good Morning."));
+            Console.WriteLine(Strings.HowManyOccurrences("She sells sea shells on the sea shore", "sea"));
         }
     }
 }
