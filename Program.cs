@@ -84,9 +84,15 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Loops.ReplaceWords("Good_Morning", '_'));
 
-            Console.WriteLine("P19- Given a non-negative number, write a method that returns its digital root");
+            //Console.WriteLine("P19- Given a non-negative number, write a method that returns its digital root");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Loops.DigitalRoot(5));
+
+            // Strings:
+
+            Console.WriteLine("P20- Given a string, write a method that returns new string in which every odd letter of the word is uppercase");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Loops.DigitalRoot(5));
+            Console.WriteLine(Strings.MakeUppercase("Have a Happy Morning"));
         }
     }
 }
