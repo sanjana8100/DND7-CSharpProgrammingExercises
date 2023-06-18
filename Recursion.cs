@@ -33,5 +33,17 @@ namespace DND7_CSharpProgrammingExercises
 
             return false;
         }
+
+        // P29:
+        public static int MinimumElement(int[] arr, int size)
+        {
+            if (size == 1)
+            {
+                return arr[0];
+            }
+
+            return arr[size - 1] < MinimumElement(arr, size - 1) ? arr[size - 1] : MinimumElement(arr, size - 1);
+        }
+
     }
 }

@@ -124,9 +124,13 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Recursion.StringInReverseOrderRecursion("Mainstream"));
 
-            Console.WriteLine("P28- Given a string, write a method that checks if it is a palindrome");
+            //Console.WriteLine("P28- Given a string, write a method that checks if it is a palindrome");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Recursion.IsPalindromeRecursion("dad"));
+
+            Console.WriteLine("P29- Given an array of integers and array's length, write a method that returns its minimum element");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Recursion.IsPalindromeRecursion("dad"));
+            Console.WriteLine(Recursion.MinimumElement(new int[] { 7, 2, 9, 4, 5 }, 5));
         }
     }
 }
