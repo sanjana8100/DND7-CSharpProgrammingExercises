@@ -98,9 +98,13 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Strings.MixTwoStrings("APPLE", "MANGO"));
 
-            Console.WriteLine("P22- Given a string, write a method that counts its number of words");
+            //Console.WriteLine("P22- Given a string, write a method that counts its number of words");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Strings.NumberOfWords("All The Very Best"));
+
+            Console.WriteLine("P23- Given a string, write a method that returns new string with reverted words order");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Strings.NumberOfWords("All The Very Best"));
+            Console.WriteLine(Strings.RevertWordsOrder("Good Morning."));
         }
     }
 }
