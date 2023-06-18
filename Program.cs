@@ -106,9 +106,13 @@
             //Console.WriteLine("----------------------------------------------------------------------------------");
             //Console.WriteLine(Strings.RevertWordsOrder("Good Morning."));
 
-            Console.WriteLine("P24- Given a string and substring, write a method that returns number of occurrences of substring in the string");
+            //Console.WriteLine("P24- Given a string and substring, write a method that returns number of occurrences of substring in the string");
+            //Console.WriteLine("----------------------------------------------------------------------------------");
+            //Console.WriteLine(Strings.HowManyOccurrences("She sells sea shells on the sea shore", "sea"));
+
+            Console.WriteLine("P25- Given a string, write a method that returns array of chars (ASCII characters) sorted in descending order");
             Console.WriteLine("----------------------------------------------------------------------------------");
-            Console.WriteLine(Strings.HowManyOccurrences("She sells sea shells on the sea shore", "sea"));
+            Console.WriteLine(Strings.SortCharactersDescending("Acknowledge"));
         }
     }
 }
